@@ -6,4 +6,6 @@ navbar{
 
 main{}
 
-product{}
+product{
+    font-style: bold;
+}
