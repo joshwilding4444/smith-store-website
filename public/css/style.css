@@ -1,9 +1,26 @@
-navbar{
-    color:;
-    font-family: sans-serif;
+.navbar{
+    background-color:#0175d6;
     font-style: bold;
+    height: 10%;
+    width: 100%;
+    position:fixed;
+    top:0;
+    float:left;
+}
+ul.navbar{
+    position:relative;
+    
+}
+li.navbar{
+    position:relative;
+    font-color:#ffffff;
+    list-style-type:none;
+    font-family: sans-serif;
+    display:inline;
 }
 
-main{}
+/*
+.main{}
 
-product{}
+.product{}
+*/
