@@ -7,7 +7,10 @@ app.engine('handlebars', exphb({defaultLayout: 'base' }))
 app.set('view engine', 'handlebars')
 
 app.get('/', function(req, res){
-    res.send("Hello, world!")
+    res.render('index', {
+	title: "Test Title",
+	layout: 'base'
+    })
 })
 
 app.listen(3000)
