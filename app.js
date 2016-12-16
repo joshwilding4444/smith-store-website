@@ -2,6 +2,8 @@ var express = require('express')
 var exphb = require('express-handlebars')
 var path = require('path')
 var app = express();
+var sqlite = require('sqlite3')
+var db = new sqlite.Database('./smith.db')
 
 app.engine('handlebars', exphb({defaultLayout: 'base' }))
 app.set('view engine', 'handlebars')
